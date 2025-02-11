@@ -1,0 +1,124 @@
+/* ALL COMMON CSS START   */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+a,a:hover{
+    text-decoration: none;
+   display: inline-block;
+}
+ ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* ALL COMMON CSS end   */
+
+
+/* HEADER PART START  */
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    color: #29313D;
+    margin: 0 22px;
+}
+.button{
+    padding: 20px 30px;
+    border-radius:28px ;
+    background-color: #8454F5;
+    color: #fff;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* HEADER PART END  */
+
+
+/* BANNER PART START  */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#bannerPart{
+    padding-top: 270px;
+    padding-bottom: 250px;
+    background: url(../images/banner\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannertext h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 60px;
+    font-family: "Open Sans", serif;
+    color: #1D354F;
+}
+.bannertext p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    font-family: "Nunito", serif;
+    color: #29313D;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    padding-right: 77px;
+}
+/* BANNER PART END  */
+
+
+/* SERVICE PART START  */
+.commontitle{
+    height: 48px;
+    width: 600px;
+    font-family: "Poppins", serif;
+    color: #29313D;
+}
+.serviceItem{
+    padding: 30px 20px;
+    transition: .4s;
+}
+.serviceItem:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+    box-shadow: 0px 0px 20px 0px rgba(242,242,242,1); 
+}
+.cmt{
+    margin-top: 50px;
+}
+.serviceItem h3{
+    height: 28px;
+    width: 600px;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    padding: 30px 0;
+}
+.serviceItem p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #29313D;
+    line-height: 150%;
+    padding-bottom: 20px;
+}
+.serviceItem a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Nunito", serif;
+    color: #29313D;
+}
+/* SERVICE PART END  */
+
+
+/* HEADER PART START  */
+
+/* HEADER PART END  */
