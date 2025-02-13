@@ -77,6 +77,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /* SERVICE PART START  */
+#servicePart{
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
 .commontitle{
     height: 48px;
     width: 600px;
@@ -119,6 +123,65 @@ h1,h2,h3,h4,h5,h6,p{
 /* SERVICE PART END  */
 
 
-/* HEADER PART START  */
-
-/* HEADER PART END  */
+/* LAUNCH PART START  */
+#launchPart{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.pic1{
+    position: relative;
+}
+.pic2{
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    transform: translateX(-50%);
+}
+.launchText{
+    padding-left: 40px;
+}
+.launchText h1{
+  font-size: 48px;
+  font-weight: 600;
+  color: #29313D;
+  font-family: "Poppins", serif;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+.launchText p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #29313D;
+  font-family: "Nunito", serif;
+ line-height: 200%;
+ padding-right: 270px;
+}
+.left{
+    padding: 30px 0;
+}
+.left h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", serif;
+    line-height: 140%;
+    padding-top: 20px;
+}
+.left p{
+    font-size: 18px;
+  font-weight: 400;
+  color: #29313D;
+  font-family: "Nunito", serif;
+ line-height: 200%;
+ padding-right: 70px;
+}
+.left a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #29313D;
+    font-family: "Nunito", serif;
+}
+.cml{
+    margin-left: -60px;
+}
+/* LAUNCH PART END  */
